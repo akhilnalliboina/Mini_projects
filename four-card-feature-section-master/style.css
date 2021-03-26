@@ -89,6 +89,7 @@ img {
   }
   body {
     margin-top: 40px;
+    padding: 30px;
   }
   .container .box-1,
   .box-2,
@@ -100,13 +101,12 @@ img {
     height: 250px;
     padding: 15px;
     position: relative;
-    margin-left: 15px;
     margin-bottom: 15px;
   }
   img {
     width: 2.5em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
