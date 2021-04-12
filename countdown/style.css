@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  background-image: url("./media/new\ year.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+h1 {
+  color: #434a50;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
