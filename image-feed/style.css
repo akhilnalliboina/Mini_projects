@@ -14,6 +14,6 @@ body {
   display: grid;
   object-fit: cover;
   grid-template-columns: 300px 300px 300px;
-  grid-gap: 5px;
+  grid-gap: 15px;
   grid-template-rows: 300px 300px 300px 300px 300px;
 }
