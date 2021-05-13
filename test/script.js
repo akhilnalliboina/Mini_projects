@@ -1,9 +1,10 @@
-function inner() {
-  let a = 10
-  return function outer(){
-    console.log(a)
-  }
-}
+const myPromise = new Promise(function(resolve, reject) {
+  reject('Errored, sorry!');
+});
 
-let close = inner()
-console.log(close())
+
+async function getData() {
+    const data = await myPromise;
+    return data
+}
+getData().catch(error=>console.log(error));
